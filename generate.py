@@ -1,5 +1,8 @@
 #!/usr/bin/python
 
+import sys
+sys.path.append('/home/jumblesale/Code/roster/markdown')
+
 import markdown
 import os
 
