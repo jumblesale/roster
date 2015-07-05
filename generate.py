@@ -24,4 +24,4 @@ for root, dirs, files in os.walk("text"):
 
                 index.write('<li><a href="%d.html">%s</a></li>' % (i, title))
 
-index.write('</body></html>')
+index.write('</ul></body></html>')
